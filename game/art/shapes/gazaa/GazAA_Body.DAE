@@ -6,8 +6,8 @@
       <authoring_tool>OpenCOLLADA for 3ds Max;  ;  </authoring_tool>
       <source_data>file:///D:/tut/GAZ-AA_box_3ds_max/GAZ-AA_Shassyee_M1.max</source_data>
     </contributor>
-    <created>2016-06-13T18:43:46</created>
-    <modified>2016-06-13T18:43:46</modified>
+    <created>2016-08-08T15:12:46</created>
+    <modified>2016-08-08T15:12:46</modified>
     <unit name="millimeter" meter="0.001"/>
     <up_axis>Z_UP</up_axis>
   </asset>
@@ -656,7 +656,7 @@
         <scale>0.6696017 0.6696017 0.5969849</scale>
         <node id="node-Start00" name="Start00">
           <node id="node-eye" name="eye">
-            <translate>0 938.0933 1892.416</translate>
+            <translate>-58.3348 463.3494 2736.677</translate>
             <extra>
               <technique profile="OpenCOLLADA">
                 <cast_shadows>1</cast_shadows>
@@ -691,7 +691,7 @@
             </extra>
           </node>
           <node id="node-hub2" name="hub2">
-            <translate>1075.457 -2648.63 321.351</translate>
+            <translate>1075.457 -2648.63 562.8883</translate>
             <scale>0.5842968 0.5684995 0.5842968</scale>
             <extra>
               <technique profile="OpenCOLLADA">
@@ -703,7 +703,7 @@
             </extra>
           </node>
           <node id="node-hub3" name="hub3">
-            <translate>-1291.897 -2670.482 334.9633</translate>
+            <translate>-1291.897 -2670.482 576.5006</translate>
             <scale>0.5842968 0.5684995 0.5842968</scale>
             <extra>
               <technique profile="OpenCOLLADA">
@@ -715,7 +715,7 @@
             </extra>
           </node>
           <node id="node-mount0" name="mount0">
-            <translate>0 -3476.366 213.8178</translate>
+            <translate>-292.2636 131.9622 -33.55865</translate>
             <scale>0.3851523 0.3851523 0.3851523</scale>
             <extra>
               <technique profile="OpenCOLLADA">
@@ -727,31 +727,7 @@
             </extra>
           </node>
           <node id="node-mount1" name="mount1">
-            <translate>2756.121 0 213.8178</translate>
-            <scale>0.3851523 0.3851523 0.3851523</scale>
-            <extra>
-              <technique profile="OpenCOLLADA">
-                <cast_shadows>1</cast_shadows>
-                <primary_visibility>1</primary_visibility>
-                <receive_shadows>1</receive_shadows>
-                <secondary_visibility>1</secondary_visibility>
-              </technique>
-            </extra>
-          </node>
-          <node id="node-mount2" name="mount2">
-            <translate>-978.9287 0 213.8178</translate>
-            <scale>0.3851523 0.3851523 0.3851523</scale>
-            <extra>
-              <technique profile="OpenCOLLADA">
-                <cast_shadows>1</cast_shadows>
-                <primary_visibility>1</primary_visibility>
-                <receive_shadows>1</receive_shadows>
-                <secondary_visibility>1</secondary_visibility>
-              </technique>
-            </extra>
-          </node>
-          <node id="node-mount3" name="mount3">
-            <translate>0 0 762.7613</translate>
+            <translate>-1110.858 -4140.717 551.8564</translate>
             <scale>0.3851523 0.3851523 0.3851523</scale>
             <extra>
               <technique profile="OpenCOLLADA">
@@ -781,10 +757,10 @@
               <instance_geometry url="#geom-Body">
                 <bind_material>
                   <technique_common>
-                    <instance_material symbol="gaz-aa_frame" target="#gaz-aa_frame-material">
+                    <instance_material symbol="gaz-aa_cabin" target="#gaz-aa_cabin-material">
                       <bind_vertex_input semantic="CHANNEL1" input_semantic="TEXCOORD" input_set="0"/>
                     </instance_material>
-                    <instance_material symbol="gaz-aa_cabin" target="#gaz-aa_cabin-material">
+                    <instance_material symbol="gaz-aa_frame" target="#gaz-aa_frame-material">
                       <bind_vertex_input semantic="CHANNEL1" input_semantic="TEXCOORD" input_set="0"/>
                     </instance_material>
                   </technique_common>

@@ -85,10 +85,10 @@ datablock WheeledVehicleTire(GazAACarTireRear)
 datablock WheeledVehicleSpring(GazAACarSpring)
 {
    // Wheel suspension properties
-   length = 0.1;             // Suspension travel
-   force = 80;              // Spring force
-   damping = 60;             // Spring damping
-   antiSwayForce = 3;         // Lateral anti-sway force
+   length = 0.02;             // Suspension travel
+   force = 2;              // Spring force
+   damping = 1;             // Spring damping
+   antiSwayForce = 0.2;         // Lateral anti-sway force
 };
 
 datablock WheeledVehicleData(GazAACar)
@@ -98,7 +98,7 @@ datablock WheeledVehicleData(GazAACar)
    emap = 1;
 
    mountPose[0] = sitting;
-   numMountPoints = 6;
+   numMountPoints = 2;
 
    useEyePoint = true;  // Use the vehicle's camera node rather than the player's
 
@@ -152,9 +152,5 @@ datablock WheeledVehicleData(GazAACar)
    tireEmitter = "CheetahTireEmitter";
    dustEmitter = "CheetahTireEmitter";
    dustHeight = "1";
-
-   // Mount slots
-   //turretSlot = 1;
-   rightBrakeSlot = 2;
-   leftBrakeSlot = 3;
+   leftBrakeSlot = 1;
 };
